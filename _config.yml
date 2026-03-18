@@ -1,0 +1,144 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Mario Abreu
+title: Pflegefachkraft & Clinical Data Analyst | Health IT Specialist
+email: krankenpflegermarioabreu@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# github_username:  Numeratus
+# linkedin_username: mario--abreu
+
+# Additional icon links
+additional_links:
+  - title: GitHub
+    icon: fab fa-github
+    url: https://github.com/Numeratus
+  - title: LinkedIn
+    icon: fab fa-linkedin
+    url: https://www.linkedin.com/in/mario--abreu
+
+
+# Additional icon links
+
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Über mich
+about_profile_image: images/profile.jpg
+about_content: |
+  Als examinierte Pflegefachkraft und Erfahrung in der hochkomplexen septischen Unfallchirurgie kenne ich die Herausforderungen des klinischen Alltags aus erster Hand. In meiner Rolle als Digitalisierungsbeauftragter und Krankenhausinformationssystem (KIS) Key-User habe ich meine Leidenschaft dafür entdeckt, die Lücke zwischen medizinischer Praxis und Informationstechnologie zu schließen. Ich weiß genau, wie Gesundheitsdaten unter Zeitdruck auf der Station entstehen und kenne die entscheidende Bedeutung von Datenqualität.
+
+  Um dieses Wissen technisch nutzbar zu machen, habe ich mir durch gezielte Online-Kurse (u.a. das Google Advanced Data Analytics Certificate und Harvard CS50) praxisnahe Grundlagen in der Datenanalyse und Programmierung erarbeitet. Heute verbinde ich mein klinisches Fundament mit diesen autodidaktisch erlernten Fähigkeiten in SQL, Python und Tableau. Mein Ziel ist es, reale klinische Daten in klare Erkenntnisse zu übersetzen, um digitale Workflows zu optimieren, die Patientensicherheit zu erhöhen und das medizinische Personal spürbar zu entlasten.
+
+content:
+  - title: Projekte # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Hospital Readmission Dashboard
+        link: github.com/Numeratus/readmission-analysis
+        icon: fab fa-github
+        quote: >
+          Analyse von Patienten-Wiederaufnahmeraten zur Identifizierung klinischer Engpässe.
+        description: |
+          Entwicklung einer End-to-End Analytics-Pipeline zur Identifizierung von ungeplanten 30-Tage-Wiederaufnahmen auf Basis des MIMIC-III-Datensatzes. Durch die Verknüpfung von klinischen Patientendaten mit DRG-Fallpauschalen (Billing) zeigt dieses Projekt, wie klinische Expertise genutzt wird, um finanzielle Risiken zu minimieren und das Entlassmanagement gezielt zu steuern. Implementiert mittels komplexer SQL-Logik (Window Functions) und interaktiver Visualisierung in Tableau.
+
+      - layout: top-middle
+        title: Medical No-Show Predictor
+        link: github.com/Numeratus/noshow-prediction
+        icon: fab fa-github
+        quote: >
+          Machine-Learning-Modell zur Optimierung der Ressourcenplanung und Reduzierung von Leerläufen.
+        description: |
+          Entwicklung einer Machine-Learning-Pipeline zur Analyse klinischer und logistischer Determinanten (z.B. Terminvorlaufzeit). Das Modell berechnet individuelle Ausfallwahrscheinlichkeiten von Patienten und ermöglicht datenbasierte Interventionen (wie zielgerichtete SMS-Erinnerungen), um die Effizienz der Terminplanung signifikant zu steigern.
+  - title: Berufserfahrung
+    layout: list
+    content:
+      - layout: left
+        title: BG Klinikum Hamburg
+        link: bg-klinikum-hamburg.de
+        sub_title: Pflegefachmann, Praxisanleiter & Digitalisierungs-Beauftragter
+        caption: Dez 2022 - Aktuell
+        description: |
+          - **Digitalisierungs-Beauftragter:** Key-User für das KIS und First-Level-IT-Support auf Station.
+          - **Prozessoptimierung:** Schulung des Teams in digitaler Dokumentation und Optimierung digitaler Workflows.
+          - **Praxisanleitung:** Strukturierte Einarbeitung neuer Mitarbeitenden und fachliche Begleitung von Auszubildenden.
+          - **Klinischer Schwerpunkt:** Umfassende Pflege an der Abteilung für Unfallchirurgie, Wundmanagement sowie prä- und postoperative Versorgung.
+
+  - title: Berufliche Bildung
+    layout: list
+    content:
+      - layout: left
+        title: Bachelor of Science in Nursing
+        caption: 2016 - 2021
+        sub_title: Escola Superior de Enfermagem de Coimbra
+        description: |
+          Grundlagen der evidenzbasierten Pflege, komplexen Patientenversorgung und des Gesundheitsmanagements.
+
+      - layout: left
+        title: Weiterbildung Praxisanleiter
+        caption: 2025
+        sub_title: Diakonische Fort- und Weiterbildungsakademie gGmbH
+        description: |
+          Pädagogische und didaktische Qualifikation zur strukturierten Einarbeitung neuer Mitarbeitenden und Auszubildenden.
+
+  - title: Zertifizierungen
+    layout: list
+    content:
+      - layout: left
+        title: CS50x, CS50P & CS50SQL
+        caption: 2025 - 2026
+        sub_title: Harvard University (edX)
+        description: |
+          Einführung in Informatik, Algorithmen und Datenstrukturen mit praktischer Programmiererfahrung in C, Python und SQL.
+          Entwicklung analytischer Problemlösungsfähigkeiten sowie Verständnis für Softwareentwicklung und Datenverarbeitung.
+
+      - layout: left
+        title: Advanced Data Analytics
+        caption: 2025
+        sub_title: Google Professional Certificates
+        description: |
+          Spezialisierung auf in angewandter Datenanalyse, statistischer Modellierung und datengetriebener Entscheidungsfindung. Nutzung von Python, SQL und Tableau zur Datenaufbereitung, Analyse, Visualisierung und Kommunikation analytischer Ergebnisse in Projekten.
+
+  - title: Kompetenzen & Tools
+    layout: text
+    content: |
+      Zusätzlich zu meiner klinischen Expertise verbinde ich medizinisches Fachwissen mit datengetriebenen und technischen Fähigkeiten:
+
+      - **Data Science & Analytics:** Python (Pandas, Scikit-Learn), SQL, Tableau, Datenaufbereitung, Machine Learning Grundlagen.
+      - **Health IT & Digitalisierung:** KIS Key-User, digitale Pflegedokumentation, Prozessoptimierung, First-Level-IT-Support, Health Informatics.
+      - **Klinische Expertise:** Examinierter Pflegefachmann, Praxisanleitung, Wundmanagement, interdisziplinäre Kommunikation.
+      - **IT-Infrastruktur & Management:** Grundlagen IT-Support, Cybersecurity, Projektmanagement.
+      - **Sprachen:** Portugiesisch (Muttersprache), Deutsch (B2), Englisch (B2).
+
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
