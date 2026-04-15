@@ -71,7 +71,7 @@ content:
       
       - layout: top-middle
         title: NordBridge - HL7 to FHIR Pipeline
-        link: github.com/Numeratus/nordbridge
+        link: github.com/Numeratus/NordBridge-HL7-FHIR-Pipeline
         icon: fab fa-github
         quote: >
           Interoperabilitäts-Engine zur Echtzeit-Transformation von klinischen HL7-Daten in moderne FHIR-R4-Ressourcen.
