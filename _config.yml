@@ -68,6 +68,15 @@ content:
           Machine-Learning-Modell zur Optimierung der Ressourcenplanung und Reduzierung von Leerläufen.
         description: |
           Entwicklung einer Machine-Learning-Pipeline zur Analyse klinischer und logistischer Determinanten (z.B. Terminvorlaufzeit). Das Modell berechnet individuelle Ausfallwahrscheinlichkeiten von Patienten und ermöglicht datenbasierte Interventionen (wie zielgerichtete SMS-Erinnerungen), um die Effizienz der Terminplanung signifikant zu steigern.
+      
+      - layout: top-middle
+        title: NordBridge - HL7 to FHIR Pipeline
+        link: github.com/Numeratus/nordbridge
+        icon: fab fa-github
+        quote: >
+          Interoperabilitäts-Engine zur Echtzeit-Transformation von klinischen HL7-Daten in moderne FHIR-R4-Ressourcen.
+        description: |
+          Entwicklung einer End-to-End Integrations-Middleware mit Mirth Connect, die die Lücke zwischen Legacy-Krankenhaussystemen (ADT/HIS) und modernen Cloud-Plattformen schließt. Das Projekt demonstriert die Echtzeit-Verarbeitung von HL7 v2 Nachrichten über das MLLP-Protokoll und deren Transformation in FHIR R4 Ressourcen. Ergänzt wird die Pipeline durch ein interaktives Python/Streamlit-Dashboard, das klinische Daten direkt von einem HAPI-FHIR-Server visualisiert.
   - title: Berufserfahrung
     layout: list
     content:
